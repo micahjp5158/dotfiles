@@ -1,0 +1,7 @@
+[user]
+	email = micahjp5158@gmail.com
+	name = Micah Perry
+[core]
+	editor = vim
+[commit]
+	template = /home/perrymicah/.gitmessage
