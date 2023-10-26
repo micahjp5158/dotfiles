@@ -21,3 +21,8 @@ cd ~/dotfiles
 ```
 make
 ```
+4. To use the global git configuration settings, add the following lines to your local .gitconfig file:
+```
+[include]
+	path = ~/.gitconfig-global
+```

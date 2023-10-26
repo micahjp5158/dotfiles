@@ -1,0 +1,18 @@
+################
+# gitconfig-global
+#
+# Git configurations intended for use across multiple machines.
+# To use, add the following lines to your local .gitconfig:
+#
+# [include]
+# 	path = ~/.gitconfig-global
+#
+################
+
+[core]
+	# Set vim as the default text editor
+	editor = vim
+
+[commit]
+	# Use the git commit message template from the dotfiles repo
+	template = ../.gitmessage
