@@ -4,25 +4,26 @@ My personal dotfiles.
 ## Getting Started
 ### Prerequisites
 This project uses GNU Stow to automatically manage symbolic links for the included configuration files. GNU Stow can be installed with the command:
-`sudo apt install stow`
+```
+sudo apt install stow
+```
 
 ### Installation
 1. Clone the repo:
-```
-cd ~
-git@github.com:micahjp5158/dotfiles.git
-```
+    ```
+    cd ~
+    git@github.com:micahjp5158/dotfiles.git
+    ```
 2. Enter the dotfiles root directory:
-```
-cd ~/dotfiles
-```
+    ```
+    cd ~/dotfiles
+    ```
 
 3. Install the configuration files using `make`:
-```
-make
-```
-4. To use the global git configuration settings, add the following lines to your local .gitconfig file:
-```
-[include]
-	path = ~/.gitconfig-global
-```
+    ```
+    make
+    ```
+4. Include the global git configuration file into your local .gitconfig:
+    ```
+    git config --global include.path = "~/.gitconfig-global"
+    ```
