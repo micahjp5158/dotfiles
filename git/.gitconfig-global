@@ -1,13 +1,13 @@
-################
-# gitconfig-global
+########################################################################
 #
-# Git configurations intended for use across multiple machines.
-# To use, add the following lines to your local .gitconfig:
+#	gitconfig-global
 #
-# [include]
-# 	path = ~/.gitconfig-global
+# 	Git configurations intended for use across multiple machines.
+# 	To use, include this file in your local .gitconfig with the command:
 #
-################
+#	git config --global include.path = "~/.gitconfig-global
+#
+########################################################################
 
 [core]
 	# Set vim as the default text editor

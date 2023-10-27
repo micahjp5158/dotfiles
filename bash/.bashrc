@@ -116,5 +116,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+########################################################################
+# Start of custom settings
+########################################################################
+
 # Default to home directory
 cd ~
+
+# Turn off annoying bells
+bind 'set bell-style none'

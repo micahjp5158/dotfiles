@@ -22,9 +22,17 @@
 " Enable line numbers
 set number
 
-" Prevent text wrapping
-set nowrap
-set linebreak
+" Enable filetype plugins
+filetype plugin on
+filetype indent on
+
+" Always show the current position
+set ruler
+
+" Turn off error sounds / visual indicators
+set noerrorbells
+set novisualbell
+set belloff=all
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors and fonts
@@ -32,6 +40,9 @@ set linebreak
 
 " Use Visual Studio Code inspired color scheme
 colorscheme codedark
+
+" Enable syntax highlighting
+syntax enable
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Text, tabs, and indents
@@ -44,6 +55,10 @@ set smartindent
 " Configure tabs as 4 spaces
 set tabstop=4
 set shiftwidth=4
+
+" Prevent text wrapping
+set nowrap
+set linebreak
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Search
