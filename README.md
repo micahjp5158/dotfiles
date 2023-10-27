@@ -18,12 +18,16 @@ sudo apt install stow
     ```
     cd ~/dotfiles
     ```
+3. Initialize the project's submodules
+	```
+	git submodule update --init --recursive
+	```
 
-3. Install the configuration files using `make`:
+4. Install the configuration files using `make`:
     ```
     make
     ```
-4. Include the global git configuration file into your local .gitconfig:
+5. Include the global git configuration file into your local .gitconfig:
     ```
     git config --global include.path = "~/.gitconfig-global"
     ```
