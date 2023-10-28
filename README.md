@@ -29,5 +29,5 @@ sudo apt install stow
     ```
 5. Include the global git configuration file into your local .gitconfig:
     ```
-    git config --global include.path = "~/.gitconfig-global"
+	git config --global --add include.path = "~/.config/git/.gitconfig-global"
     ```

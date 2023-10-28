@@ -5,7 +5,7 @@
 # 	Git configurations intended for use across multiple machines.
 # 	To use, include this file in your local .gitconfig with the command:
 #
-#	git config --global include.path = "~/.gitconfig-global
+#	git config --global --add include.path = "~/.config/git/.gitconfig-global"
 #
 ########################################################################
 
@@ -15,4 +15,4 @@
 
 [commit]
 	# Use the git commit message template from the dotfiles repo
-	template = ../.gitmessage
+	template = ~/.config/git/.gitmessage
