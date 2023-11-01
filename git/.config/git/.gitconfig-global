@@ -16,3 +16,7 @@
 [commit]
 	# Use the git commit message template from the dotfiles repo
 	template = ~/.config/git/.gitmessage
+
+[advice]
+	# Ignore help messages when ignored files aren't added to commits
+	addIgnoredFile = false

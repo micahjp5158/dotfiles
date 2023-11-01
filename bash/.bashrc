@@ -125,3 +125,6 @@ cd ~
 
 # Turn off annoying bells
 bind 'set bell-style none'
+
+# Add gcc-arm-none-eabi to PATH
+export PATH=$PATH:/usr/local/gcc-arm-none-eabi/bin
