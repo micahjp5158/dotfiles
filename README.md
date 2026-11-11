@@ -12,7 +12,7 @@ sudo apt install stow
 1. Clone the repo:
     ```
     cd ~
-    git@github.com:micahjp5158/dotfiles.git
+    git clone git@github.com:micahjp5158/dotfiles.git
     ```
 2. Enter the dotfiles root directory:
     ```
@@ -29,5 +29,5 @@ sudo apt install stow
     ```
 5. Include the global git configuration file into your local .gitconfig:
     ```
-	git config --global --add include.path = "~/.config/git/.gitconfig-global"
+	git config --global --add include.path "~/.config/git/.gitconfig-global"
     ```
